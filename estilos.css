@@ -1,0 +1,116 @@
+.contenedor {
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.tittle {
+  font-family: 'MS DIALOG';
+  position: absolute;
+  color: #FFFFFF;
+  width: 100%;
+  height: 60%;
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60%;
+  align-items: center;
+}
+
+.unmes {
+  background-color: #6095AF;
+  color: white;
+}
+
+.dosmeses {
+  background-color: #6095AF;
+  color: white;
+}
+
+.tresmeses {
+  background-color: #6095AF;
+  color: white;
+}
+
+.cuatromeses {
+  background-color: #6095AF;
+  color: white;
+}
+
+.cincomeses {
+  background-color: #6095AF;
+  color: white;
+}
+
+.seismeses {
+  background-color: #6095AF;
+  color: white;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  width: 80%;
+  height: 15%;
+  width: 60%;
+  height: 100%;
+  font-size: 18px;
+  border-radius: 25px; /* Establece un radio de borde para hacerlo redondeado */
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  width: 80%;
+  height: 15%;
+  width: 60%;
+  height: 100%;
+}
+
+@media (max-width: 400px) {
+  body {
+    background-color: black;
+  }
+}
+
+.galeria {
+      width: 95vw;
+      height: auto;
+      display: flex;
+      justify-content: center;
+    }
+
+.ft {
+      width: 80vw;
+      height: auto;
+      display: block;
+      justify-content: center;
+    }
+.fotos {
+      max-width: 100%;
+      height: auto;
+      margin: 10px auto;
+    }
+
+
+  .button1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      border-radius: 25px; /* Establece un radio de borde para hacerlo redondeado */
+    }
